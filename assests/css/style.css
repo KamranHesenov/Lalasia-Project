@@ -1,0 +1,1427 @@
+body {
+    font-family: 'Eudoxus Sans';
+    background-color: #F1F1F1 !important;
+    color: #151411;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+}
+
+h1 {
+    font-size: 64px !important;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+
+p,
+span {
+    color: #AFADB5;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32.4px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-44 {
+    font-size: 44px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.bg-518581 {
+    background-color: #518581;
+}
+
+.bg-15141199 {
+    background-color: #15141199;
+    border-radius: 50%;
+}
+
+.c-151411 {
+    color: #151411 !important;
+}
+
+.bg-151411 {
+    background-color: #151411;
+}
+
+.bg-314443 {
+    background-color: #314443;
+}
+
+.bg-C5A26E {
+    background-color: #C5A26E;
+}
+
+.bg-D8DBE0 {
+    background-color: #D8DBE0;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 26px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h3 {
+        font-size: 14px !important;
+    }
+}
+
+/**************** Header Start ****************/
+header {
+    background-color: #F1F1F1;
+    border-bottom: 2px solid #b9b8b8 !important;
+}
+
+header ul {
+    column-gap: 60px;
+    transform: translateX(-8%);
+}
+
+header ul li a {
+    position: relative;
+    color: #151411 !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 180% !important;
+}
+
+header ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: #518581;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -28px;
+    transition: 0.6s;
+}
+
+header ul li a:hover {
+    color: #518581 !important;
+}
+
+header ul li a:hover::after {
+    width: 100%;
+    transition: 0.6s;
+}
+
+.active,
+.active::after {
+    width: 100%;
+    color: #518581 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .active::after {
+        width: 0;
+        transition: 0s;
+    }
+}
+
+/**************** Header End ****************/
+
+/*********************** Main Start ***********************/
+/**************** Banner Start ****************/
+.banner h1 {
+    line-height: 83px;
+}
+
+.banner p {
+    font-weight: 500;
+    line-height: 32.4px;
+}
+
+.banner .bow-arrow-icon {
+    background: url("/assests/img/icon/bow-arrow-icon.svg") no-repeat;
+    background-size: contain;
+    height: 132.61px;
+    width: 141.26px;
+    left: 74.59px;
+    top: 220.62px;
+    transform: translateX(-150px);
+
+}
+
+
+/* Banner Search Input Css start*/
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    line-height: 84px;
+    transform: translateY(50%);
+    background-color: white;
+
+}
+
+.search input {
+    height: 84px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    font-size: 18px;
+    font-weight: 500;
+    color: #AFADB5;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 80px rgba(175, 173, 181, 0.2);
+
+}
+
+.search input:focus {
+
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.search .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+
+.search button {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    height: 54px;
+    width: 170px;
+    background: #518581;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.search button:hover {
+    color: #fff;
+    background-color: #518581;
+    opacity: 0.8 !important;
+}
+
+/* Banner Search Input Css end */
+
+.yellow-text {
+    color: #FFB23F;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.banner .benefits .benefits-box {
+    box-shadow: 0px 4px 100px rgba(175, 173, 181, 0.1);
+    background-color: #fff;
+    min-height: 285px !important;
+}
+
+.banner .benefits h2 {
+    line-height: 57px;
+}
+
+.banner .benefits .benefits-box-shadow h3 {
+    line-height: 130%;
+}
+
+.benefits-icon1 {
+    background: url("/assests/img/icon/benefits-icon1.svg") no-repeat;
+}
+
+.benefits-icon2 {
+    background: url("/assests/img/icon/benefits-icon2.svg") no-repeat;
+}
+
+.benefits-icon3 {
+    background: url("/assests/img/icon/benefits-icon3.svg") no-repeat;
+}
+
+/**************** Banner End ****************/
+
+
+/**************** Popular-Product Start ****************/
+/* Swiper Carousel start*/
+.popular-product .swiper {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.popular-product .swiper-slide {
+    width: 394px !important;
+    background: #fff;
+    transform: translateX(-10%);
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+}
+
+.popular-product .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+.popular-product .swiper-slide figure a {
+    color: #151411 !important;
+}
+
+.popular-product .swiper-slide figure span:nth-child(4) {
+    color: #151411 !important;
+    font-size: 24px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: none !important;
+}
+
+.popular-product .swiper-button-prev,
+.swiper-button-next {
+    background-color: rgba(21, 20, 17, 0.6) !important;
+    backdrop-filter: blur(7.5px) !important;
+    background-position: center center !important;
+    padding: 30px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    transition: 0.5s;
+}
+
+.popular-product .swiper-button-prev {
+    background: url("/assests/img/icon/slider-left-icon.svg") no-repeat;
+    left: 60px;
+}
+
+.popular-product .swiper-button-next {
+    background: url("/assests/img/icon/slider-right-icon.svg") no-repeat;
+    right: 60px;
+}
+
+.popular-product .swiper-button-prev:hover,
+.swiper-button-next:hover {
+    opacity: 0.8 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .popular-product .swiper-slide {
+        width: 60% !important;
+        transform: translateX(30%);
+    }
+
+    .popular-product .swiper-slide img {
+        height: 170px !important;
+        object-fit: cover;
+    }
+
+    .popular-product .swiper-slide figure span:nth-child(4) {
+        font-size: 16px !important;
+    }
+
+    .popular-product .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}
+
+.project-data span {
+    color: #151411;
+    font-size: 44px;
+}
+
+/* Carousel end*/
+
+.btn-learn-more {
+    display: inline-block;
+    color: #fff !important;
+    background-color: #518581;
+    padding: 15px 35px !important;
+    font-size: 18px;
+    border: none;
+}
+
+.btn-learn-more:hover {
+    background-color: #518581 !important;
+    opacity: 0.8 !important;
+}
+
+.Our_Product a {
+    padding: 15px 35px !important;
+    color: #fff !important;
+    background-color: #518581;
+    font-size: 18px;
+    border: none;
+}
+@media  screen and (max-width: 568px){
+    .Our_Product a{
+        width: 100%;
+    }
+    
+}
+.Our_Product a:hover {
+    background-color: #518581 !important;
+    opacity: 0.8 !important;
+}
+
+.Our_Product img {
+    object-fit: cover;
+}
+
+.Our_Product .our-left-img img {
+    height: 260px;
+}
+
+.Our_Product .our-left-right img {
+    height: 510px !important;
+}
+
+.Our_Product .project-data span {
+    font-size: 44px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .Our_Product .project-data span {
+        font-size: 22px !important;
+    }
+}
+
+
+
+/**************** Popular-Product End ****************/
+
+
+/**************** Testimonials Start ****************/
+
+.testimonials .swiper {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.testimonials .swiper-slide {
+    width: 545px !important;
+    font-size: 18px;
+    background: #fff;
+    transform: translateX(-25%);
+}
+
+@media screen and (max-width: 598px) {
+    .testimonials .swiper-slide {
+        width: 327px !important;
+        transform: translateX(7%);
+    }
+}
+
+.testimonials .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-quote-up {
+    background: url("/assests/img/icon/quote-up.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.testimonials .bottom-img img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.icon-star {
+    background: url("/assests/img/icon/star.svg") no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+/**************** Testimonials End ****************/
+
+
+
+/**************** Articles Start ****************/
+.Articles .swiper {
+    width: 90%;
+    height: 565px;
+    justify-content: start !important;
+    overflow-y: hidden;
+    overflow-wrap: normal;
+}
+
+.Articles .swiper-slide {
+    position: relative;
+}
+
+.Articles .swiper-slide img {
+    display: block;
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Articles .art-swp-positon a:hover {
+    opacity: 0.8 !important;
+}
+
+.Articles .art-swp-positon {
+    left: 26px;
+    bottom: 26px;
+}
+
+.Articles .art-swp-positon p:nth-child(1) {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.Articles .art-swp-positon p:nth-child(3) {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.Articles .art-swp-positon h5 {
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 576px) {
+    .Articles .swiper {
+        width: 95%;
+        height: 327px;
+    }
+
+    .Articles .art-swp-positon {
+        left: 14px;
+        bottom: 26px;
+    }
+
+    .Articles .art-swp-positon h5 {
+        font-size: 16px !important;
+    }
+
+    .Articles .art-swp-positon p:nth-child(1) {
+        font-size: 12px !important;
+    }
+
+    .Articles .art-swp-positon p:nth-child(3) {
+        font-size: 14px !important;
+    }
+
+    .Articles .art-swp-positon a {
+        font-size: 12px !important;
+    }
+}
+
+.Articles .col-6 {
+    align-items: center !important;
+}
+
+.Articles a {
+    color: #151411;
+    border: none;
+}
+
+.Articles i span {
+    font-size: 14px;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+.Articles .art-button {
+    position: absolute !important;
+    width: 120px !important;
+    right: -10px !important;
+    bottom: 10px !important;
+
+}
+
+.Articles .swiper-button-next {
+    display: inline-block !important;
+    background: url("/assests/img/icon/arrow-right.svg") no-repeat !important;
+    background-color: #518581 !important;
+    border-radius: 0px !important;
+    padding: 25px !important;
+    background-position: center center !important;
+}
+
+.Articles .swiper-button-prev {
+    background: url("/assests/img/icon/arrow-left.svg") no-repeat !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    padding: 25px !important;
+    background-position: center center !important;
+}
+
+.abbreviation {
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    .abbreviation {
+        width: 200px !important;
+        height: 60px !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/**************** Articles End ****************/
+
+
+
+/**************** Footer Start ****************/
+
+footer li {
+    padding-top: 6px;
+}
+
+footer a {
+    font-style: normal;
+    color: #AFADB5 !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #518581 !important;
+    transition: 0.3s;
+}
+
+/**************** Footer End ****************/
+
+/************************************************************** Finish  **************************************************************/
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 26px !important;
+        line-height: 130% !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+        line-height: 130% !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+        line-height: 130% !important;
+    }
+
+    a {
+        font-size: 16px !important;
+        line-height: 145% !important;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 180% !important;
+    }
+
+    span {
+        font-size: 14px !important;
+        line-height: 130% !important;
+    }
+
+}
+
+/* Header @media */
+@media screen and (max-width: 768px) {
+    header ul {
+        transform: translate(0);
+    }
+
+    header ul li a::after {
+        height: 0px;
+    }
+
+    /* Banner @media */
+
+    .banner h1 i img {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .search {
+        transform: translateY(-160%);
+    }
+
+    .banner .search input {
+        font-size: 14px !important;
+        height: 54px;
+        line-height: 54px;
+    }
+
+    .banner .search img {
+        width: 19px;
+        height: 19px;
+        margin-top: -30px;
+    }
+
+    .banner .search button {
+        background-color: #518581 !important;
+        top: 8px;
+        font-size: 14px !important;
+        width: 100px;
+        height: 38px;
+    }
+
+    /* FOOTER */
+    footer h5 {
+        font-size: 16px !important;
+    }
+
+    footer ul li a {
+        font-size: 14px !important;
+    }
+
+}
+
+@media screen and (max-width: 379px) {
+    .banner .bow-arrow-icon {
+        width: 45.32px !important;
+        left: 42.95%;
+        right: 13.34%;
+        top: 9.35%;
+        bottom: -34.6%;
+    }
+}
+
+
+/*********************----- Products CSS Start -----*********************/
+
+
+
+/******************** Product Banner Start ********************/
+
+
+
+
+/******************** Product Banner End ********************/
+
+
+
+
+
+/******************** Products List Start ********************/
+#products-list .search {
+    transform: translateY(0);
+}
+
+#products-list .search input {
+    height: 84px;
+}
+
+#products-list .btn-filter button {
+    color: red !important;
+    width: 190px;
+    height: 84px;
+}
+
+#products-list .top-products-txt .align-items-center span {
+    color: #518581 !important;
+    background-color: #F9F9F9;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 16px !important;
+    line-height: 20.8px;
+}
+
+#products-list .top-products-txt button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32.4px;
+    border: 1.5px solid #F9F9F9;
+    width: 139px;
+    height: 50px;
+}
+
+#myDIV .row .col-md-4 {
+    margin: 15px 0px;
+}
+
+
+
+
+
+#products-list .btn-toolbar .btn-group button {
+    width: 38px !important;
+    height: 42px !important;
+    border: none;
+}
+
+#products-list .btn-toolbar .btn-group img {
+    width: 32px;
+    height: 32px;
+}
+
+#products-list .btn-toolbar .btn-group button:hover {
+    background-color: #518581;
+    color: white;
+}
+
+#products-list .btn-toolbar .btn-group button:nth-child(1):hover,
+#products-list .btn-toolbar .btn-group button:nth-child(7):hover {
+    background-color: transparent;
+}
+
+#products-list .btn-toolbar .btn-group button:nth-child(2) {
+    background-color: #518581;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #products-list .search {
+        margin: 0px 24px;
+    }
+
+    #products-list .search input {
+        font-size: 14px !important;
+        height: 54px;
+    }
+
+    #products-list .search i img {
+        margin-top: -30px;
+        width: 24px;
+        height: 24px;
+    }
+
+    #products-list .search button {
+        font-size: 14px !important;
+        width: 100px;
+        height: 38px;
+        margin-top: -6px;
+    }
+
+    #myDIV .row .col-md-4 .img {
+        height: 130px !important;
+    }
+
+    #myDIV .row .col-md-4 .text span:nth-child(1) {
+        font-size: 12px !important;
+    }
+
+    #myDIV .row .col-md-4 .text h4 a {
+        font-size: 14px !important;
+    }
+
+    #myDIV .row .col-md-4 .text p {
+        font-size: 12px !important;
+    }
+
+    #myDIV .row .col-md-4 .text h4,
+    #myDIV .row .col-md-4 .text p {
+        width: 150px;
+        overflow: hidden;
+        /* taşanları gizlemek */
+        white-space: nowrap;
+        /* alt setire heç kecmesin */
+        text-overflow: ellipsis;
+        /* eğer uzunsa üç noqte qoysun */
+    }
+}
+
+
+/******************** Products List End ********************/
+
+/*********************----- Products CSS End -----*********************/
+
+
+/*********************----- Product1 CSS START -----*********************/
+
+/* Product1 Banner Start */
+#product1 .product1-about span {
+    color: #151411 !important;
+    font-weight: 700;
+}
+
+#product1 .product1-about .color-group button {
+    width: 50px;
+    height: 50px;
+    border: none !important;
+    border-radius: 0px;
+}
+
+#product1 .product1-about .color-group button:hover {
+    border: 3px solid #518581 !important;
+}
+
+#product1 .product1-about .readmore-text {
+    height: 100px;
+    overflow: hidden;
+}
+
+#product1 .product1-about .readmore {
+    color: #518581;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#product1 .product1-about h3.produc1-price {
+    font-size: 44px;
+}
+
+#product1 .product1-about .btn-end button {
+    width: 48%;
+    height: 58px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+#product1 .product1-about .btn-end button:hover {
+    opacity: 0.8;
+}
+
+#product1 .product1-about .btn-end button:nth-child(1) {
+    background-color: #518581;
+    color: #fff;
+}
+
+#product1 .product1-about .btn-end button:nth-child(2) {
+    background-color: transparent !important;
+    border: 2px solid #acacac;
+    color: #151411;
+}
+
+#product1 .products-item h3 {
+    font-size: 32px !important;
+    padding-bottom: 30px;
+}
+
+#product1 .products-item .row .col-md-4 .text h4,
+#product1 .products-item .row .col-md-4 .text p {
+    width: 150px;
+    overflow: hidden;
+    /* taşanları gizlemek */
+    white-space: nowrap;
+    /* alt setire heç kecmesin */
+    text-overflow: ellipsis;
+    /* eğer uzunsa üç noqte qoysun */
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    #product1 .product1-about h2 {
+        margin-top: 30px;
+    }
+
+    #product1 .product1-about .color-span {
+        font-size: 14px;
+    }
+
+    #product1 .product1-about .color-group button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #product1 .product1-about p {
+        margin-top: 20px;
+    }
+
+    #product1 .product1-about .btn-end {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    #product1 .product1-about .btn-end button {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        #product1 .product1-about .produc1-price {
+            font-size: 24px !important;
+            padding: 16px 0px;
+        }
+
+        #product1 .products-item .img {
+            height: 130px !important;
+        }
+
+        #product1 .products-item .work {
+            margin: 10px 0px;
+        }
+    }
+}
+
+/* Product1 Banner End */
+
+/*********************----- Product1 CSS END -----*********************/
+
+/*********************----- Services CSS Start -----*********************/
+#services .services-text-numbers span {
+    font-size: 64px;
+    color: #518581;
+}
+
+@media screen and (max-width: 576px) {
+    #services .services-text-numbers span {
+        font-size: 32px !important;
+    }
+}
+
+#services .row {
+    row-gap: 30px;
+}
+
+#services .row h2 {
+    font-size: 64px;
+    color: #518581;
+}
+
+@media screen and (max-width: 576px) {
+    #services .row {
+        row-gap: 20px;
+    }
+
+    #services .row h2 {
+        font-size: 32px !important;
+    }
+
+    #services .row h3 {
+        font-size: 14px !important;
+    }
+
+    #services .row p {
+        font-size: 12px !important;
+    }
+}
+
+/* Services End */
+
+
+
+/* Services Portfolio Start */
+#services-portfolio .w-Portofolio-link {
+    color: #518581;
+    font-weight: 700;
+}
+
+#services-portfolio .portfolio-img-text {
+    left: 30px;
+    bottom: 30px;
+}
+
+#services-portfolio .portfolio-img-text h4 {
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 130%;
+}
+
+#services-portfolio .portfolio-img-text a {
+    color: #fff;
+}
+
+#services-portfolio .col-lg-6:nth-child(1) img {
+    max-height: 632px !important;
+}
+
+#services-portfolio .col-lg-6:nth-child(2) img {
+    width: 100% !important;
+    max-height: 301px !important;
+}
+
+#services-portfolio .row {
+    row-gap: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    #services-portfolio .col-lg-6:nth-child(1) img,
+    #services-portfolio .col-lg-6:nth-child(2) img {
+        height: 409px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #services-portfolio .w-Portofolio-link {
+        font-size: 14px !important;
+    }
+
+    #services-portfolio .portfolio-img-text h4 {
+        font-size: 14px !important;
+    }
+
+    #services-portfolio .portfolio-img-text p {
+        font-size: 12px !important;
+    }
+
+    #services-portfolio .portfolio-img-text a:nth-child(3) {
+        font-size: 12px !important;
+    }
+}
+
+/* Services Portfolio Start */
+
+/*********************----- Services CSS END -----*********************/
+
+
+/*********************----- Article CSS START -----*********************/
+
+/* Article Slader Start */
+#article ol li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+#article .carousel-card {
+    transform: translateY(-50%);
+    width: 90%;
+}
+
+#article .carousel-control-prev,
+#article .carousel-control-next {
+    transform: translateY(-20%);
+    margin: 0px -37px;
+}
+
+#article .carousel-card .card-text {
+    width: 85%;
+}
+
+.card-text span:nth-child(1) {
+    color: #AFADB5 !important;
+}
+
+.card-text h3 {
+    color: #151411;
+    font-size: 26px !important;
+    letter-spacing: 0.01em;
+}
+
+.card-text i img {
+    width: 28px;
+    height: 28px;
+}
+
+.card-text a h5 {
+    color: #151411;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card-text span:nth-child(3) {
+    color: #AFADB5 !important;
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+#article ol {
+    background-color: red;
+    height: 10px;
+
+}
+
+.benefit {
+    display: block !important;
+
+    height: 80px !important;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-75 {
+    width: 85%;
+}
+
+.icon-phone {
+    background: url("/assests/img/icon/phone-about.png") no-repeat;
+
+}
+
+.icon-message {
+    background: url("/assests/img/icon/message-about.png") no-repeat;
+
+}
+
+.icon-award {
+    background: url("/assests/img/icon/overall-about.png") no-repeat;
+
+}
+
+@media screen and (max-width: 768px) {
+    #article .carousel-card .card-text {
+        width: 99%;
+    }
+
+    .card-text span:nth-child(1) {
+        font-size: 10px !important;
+    }
+
+    .card-text h3 {
+        font-size: 14px !important;
+    }
+
+    .card-text i img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-text a h5 {
+        font-size: 12px;
+    }
+
+    .card-text span:nth-child(3) {
+        font-size: 12px !important;
+    }
+}
+
+/* Article Slader End */
+
+
+
+
+/* Article Daily News Start */
+#Daily-News .row {
+    row-gap: 18px;
+}
+
+/* Article Daily News Start */
+
+
+
+/* Article Trending Topics Start */
+/* Filter Start */
+#Trending-Topics .filterDiv {
+    display: none;
+}
+
+#Trending-Topics .show {
+    display: block;
+}
+
+#Trending-Topics .container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#myBtnContainer .btn {
+    color: #AFADB5;
+    border-radius: 0px;
+    padding: 12px 16px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 15px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+#myBtnContainer .btn:hover {
+    color: #151411 !important;
+    background-color: #F9F9F9;
+}
+
+#myBtnContainer .btn-outline-none:focus {
+    background-color: #F9F9F9;
+    box-shadow: none !important;
+}
+
+.filterDiv .w-25 {
+    width: 210px !important;
+    height: 210px !important;
+}
+
+.filterDiv .w-25 img {
+    cursor: pointer;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#Trending-Topics .load-more {
+    color: #151411 !important;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 38px;
+}
+
+#Trending-Topics .load-more:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+
+    .filterDiv .card-text h3,
+    .filterDiv .card-text p {
+        width: 180px;
+        overflow: hidden;
+        /* taşanları gizlemek */
+        white-space: nowrap;
+        /* alt setire heç kecmesin */
+        text-overflow: ellipsis;
+        /* eğer uzunsa üç noqte qoysun */
+    }
+}
+
+/* Filter End */
+/* Article Trending Topics End */
+
+/*********************----- Article CSS END -----*********************/
+
+/*********************----- About CSS START -----*********************/
+
+#OurMission .row {
+    row-gap: 30px;
+}
+
+#OurMission h3 {
+    font-size: 44px;
+}
+
+#OurMission .OurMission-right img {
+    width: 62px;
+    height: 62px;
+}
+
+#OurTeam a {
+    color: #151411;
+}
+
+/*********************----- About CSS END -----*********************/
+
+
+/*********************----- Bedroom CSS START -----*********************/
+
+/* Bedroom Start */
+#bedroom h1 {
+    font-size: 64px !important;
+}
+
+@media screen and (max-width: 768px) {
+    #bedroom h1 {
+        font-size: 26px !important;
+    }
+
+    h3 {
+        font-size: 14px !important;
+    }
+}
+
+/* Bedroom End */
+
+
+
+
+
+
+
+
+/* Similar Topics Start */
+#SimilarTopics .row span {
+    color: #AFADB5 !important;
+}
+
+#SimilarTopics .row {
+    row-gap: 20px;
+}
+
+#SimilarTopics .row img {
+    max-height: 360px !important;
+    cursor: pointer;
+}
+
+#SimilarTopics .row h3 {
+    color: #151411 !important;
+    font-size: 26px;
+}
+
+#SimilarTopics .row h5 {
+    color: #151411;
+    font-size: 14px;
+}
+
+#SimilarTopics .row span:last-child {
+    font-size: 14px !important;
+}
+
+#SimilarTopics .row h3,
+#SimilarTopics .row p {
+    width: 100%;
+    overflow: hidden;
+    /* taşanları gizlemek */
+    white-space: nowrap;
+    /* alt setire heç kecmesin */
+    text-overflow: ellipsis;
+    /* eğer uzunsa üç noqte qoysun */
+}
+
+@media screen and (max-width: 768px) {
+
+    #SimilarTopics .row h3,
+    #SimilarTopics .row p {
+        overflow: normal;
+        white-space: normal;
+        text-overflow: normal;
+    }
+
+}
+
+/* Similar Topics End */
+
+/*********************----- Bedroom CSS END -----*********************/
